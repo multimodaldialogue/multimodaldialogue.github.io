@@ -1,20 +1,37 @@
 ## Multimodal Dialogue
 We take a step further to study an end-to-end multimodal dialogue model for vision, speech and text. Specifically, we introduce a new task called visual spoken dialogue, which aims to ground the spoken question in an image, infer textual context from history, then (1) perform automatic speech recognition, and (2) answer the question accurately simultaneously. We introduce VSDial, an English-Chinese bilingual dataset to study the visual spoken dialogue task.
 
+### Tasks
+Multimodal context grounded Automatic Speech Recognition (MASR)
+
+Multimodal context grounded Response Generation (MRG) 
+
+### Provided Baseline Model: MultiDial
+Figure: llustration of our proposed framework
+![llustration of our proposed framework](https://github.com/multimodaldialogue/multimodaldialogue.github.io/blob/main/data/framework.png)
+
 ### Results
 Table 1: Performance on VSDial-EN
+|Model| BLEU1 ↑| BLEU2 ↑| BLEU3 ↑| BLEU4 ↑| Rouge ↑| BERTScore ↑| WER ↓|
+| :-----|  :----: | :----: | :----: | :----: | :----: | :----: | :----: |
+|BLIP (Li et al. 2022)| 35.56| 26.88| 15.07| 9.74| 37.29| 44.65| -|
+|VLT5 (Cho, Lei et al. 2021)| 36.70| 27.90| 15.61| 9.70 |38.82| 46.17| -||
+|XVLM (Zeng, Zhang, and Li 2021)| 37.13 |28.17 |15.40| 9.30| 39.78 |46.18| -|
+|MultiDial-Sequential| 20.45| 13.14| 5.90| 2.38| 9.25| 22.73 |7.46|
+|MultiDial (Prompt)| 39.10| 33.93 |19.36 |16.79 |41.46| 49.13 |5.90|
 
-| 左对齐 | 右对齐 | 居中对齐 |
-| :-----| ----: | :----: |
-| 单元格 | 单元格 | 单元格 |
-| 单元格 | 单元格 | 单元格 |
 
 Table 2: Performance on VSDial-ZH
 
-| 左对齐 | 右对齐 | 居中对齐 |
-| :-----| ----: | :----: |
-| 单元格 | 单元格 | 单元格 |
-| 单元格 | 单元格 | 单元格 |
+|Model| BLEU1 ↑ |BLEU2 ↑| BLEU3 ↑ |BLEU4 ↑ |Rouge ↑ |BERTScore ↑| CER ↓|
+| :-----|  :----: | :----: | :----: | :----: | :----: | :----: | :----: |
+|BLIP (Li et al. 2022)| 22.17 |18.98| 11.18 |7.60 |38.84 |45.27 -|
+|XVLM (Zeng, Zhang, and Li 2021)| 24.99| 20.35| 10.96| 6.85| 39.49| 46.49 |-|
+|VLT5 (Cho, Lei et al. 2021) |27.00 |22.58 |13.46| 9.32| 40.99| 47.22|| -|
+|MultiDial-Sequential |14.93| 9.64| 4.62| 2.35 |13.74| 23.97| 7.73|
+|MultiDial (Prompt)| 36.41| 32.23| 23.15| 17.65| 45.39| 49.44 |6.81|
+
+
 
 ### Samples
 You can download the Samples as follows:
