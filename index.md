@@ -3,6 +3,7 @@ We take a step further to study an end-to-end multimodal dialogue model for visi
 
 ### Samples
 You can download the Samples as follows:
+
 [Images]()
 
 [Speech]()
@@ -11,6 +12,7 @@ You can download the Samples as follows:
 
 ### Datasets
 You can download the datasets as follows:
+
 [Training data]()
 
 [Validation data]()
