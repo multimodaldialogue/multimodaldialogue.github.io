@@ -8,10 +8,11 @@ Multimodal context grounded Response Generation (MRG)
 
 ### Provided Baseline Model: MultiDial
 Figure: llustration of our proposed framework
-![llustration of our proposed framework](https://github.com/multimodaldialogue/multimodaldialogue.github.io/blob/main/data/framework.png)
+![llustration of our proposed framework](https://raw.githubusercontent.com/multimodaldialogue/multimodaldialogue.github.io/main/data/framework.png)
 
 ### Results
 Table 1: Performance on VSDial-EN
+
 |Model| BLEU1 ↑| BLEU2 ↑| BLEU3 ↑| BLEU4 ↑| Rouge ↑| BERTScore ↑| WER ↓|
 | :-----|  :----: | :----: | :----: | :----: | :----: | :----: | :----: |
 |BLIP (Li et al. 2022)| 35.56| 26.88| 15.07| 9.74| 37.29| 44.65| -|
