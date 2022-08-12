@@ -37,11 +37,11 @@ Table 2: Performance on VSDial-ZH
 ### Samples
 You can download the Samples as follows:
 
-[Images](https://pan.baidu.com/s/1dgD6VCuya8tnoH15NRbEjw?pwd=2y2j)
+[Images](https://drive.google.com/file/d/1y_z1nEIQvYNm2Q1UTpBt_47I9je_EY8A/view?usp=sharing)
 
-[Speech](https://pan.baidu.com/s/1_x3rNK6stOzdwFlK5tRwqA?pwd=ztip)
+[Speech](https://drive.google.com/file/d/11FUm0h1gf1a231aXeGp7jKQlVBJHlAKL/view?usp=sharing)
 
-[Dialogue](https://pan.baidu.com/s/1pd6HXIS5nm3IiIR1Ab-yTA?pwd=9qwe)
+[Dialogue](https://drive.google.com/file/d/1eP6SJot1K5AFBOHWxZVCoVI4fafllUuQ/view?usp=sharing)
 
 We will upload our full dataset as soon as possilble.
 
