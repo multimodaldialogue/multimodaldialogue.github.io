@@ -1,6 +1,21 @@
 ## Multimodal Dialogue
 We take a step further to study an end-to-end multimodal dialogue model for vision, speech and text. Specifically, we introduce a new task called visual spoken dialogue, which aims to ground the spoken question in an image, infer textual context from history, then (1) perform automatic speech recognition, and (2) answer the question accurately simultaneously. We introduce VSDial, an English-Chinese bilingual dataset to study the visual spoken dialogue task.
 
+### Results
+Table 1: Performance on VSDial-EN
+
+| 左对齐 | 右对齐 | 居中对齐 |
+| :-----| ----: | :----: |
+| 单元格 | 单元格 | 单元格 |
+| 单元格 | 单元格 | 单元格 |
+
+Table 2: Performance on VSDial-ZH
+
+| 左对齐 | 右对齐 | 居中对齐 |
+| :-----| ----: | :----: |
+| 单元格 | 单元格 | 单元格 |
+| 单元格 | 单元格 | 单元格 |
+
 ### Samples
 You can download the Samples as follows:
 
