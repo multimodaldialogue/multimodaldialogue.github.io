@@ -2,9 +2,9 @@
 We take a step further to study an end-to-end multimodal dialogue model for vision, speech and text. Specifically, we introduce a new task called visual spoken dialogue, which aims to ground the spoken question in an image, infer textual context from history, then (1) perform automatic speech recognition, and (2) answer the question accurately simultaneously. We introduce VSDial, an English-Chinese bilingual dataset to study the visual spoken dialogue task.
 
 ### Tasks
-Multimodal context grounded Automatic Speech Recognition (MASR)
+Multimodal Automatic Speech Recognition (MASR)
 
-Multimodal context grounded Response Generation (MRG) 
+Multimodal Dialogue Generation (MRG) 
 
 ### Provided Baseline Model: MultiDial
 Figure: llustration of our proposed framework
