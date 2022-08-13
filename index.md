@@ -4,7 +4,7 @@ We take a step further to study an end-to-end multimodal dialogue model for visi
 ### Tasks
 Multimodal Automatic Speech Recognition (MASR)
 
-Multimodal Dialogue Generation (MRG) 
+Multimodal Dialogue Generation (MDG) 
 
 ### Provided Baseline Model: MultiDial
 Figure: llustration of our proposed framework
